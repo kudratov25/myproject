@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+#navbar{
+    padding: 20px;
+    margin: 0;
+}
+.navbar{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid red;;
+    
+}
+.left-side{
+    font-weight: bold;
+    float: left;
+    margin-left: 30px;
+}
+.right-side{
+    float: left;
+}
+.right-side .menu{
+    list-style: none;
+    margin: 0;
+}
+.right-side ul li{
+    display: inline;
+    padding: 5px 8px;
+}
+.right-side ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family:sans-serif;
+}
+#banner{
+    height: 100vh;
+    background-image: url(images/5ac76bd4b81c9f3ba845d9e3c5db943f.jpg);
+    background-position-x: center;
+    background-position-y: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    text-align: center;
+}
+.container .slogan{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 55px;
+    position: relative;
+    margin-top:40vmin;
+}
+.container .slogan h1{
+    font-weight: bolder;
+}
+.sericon{
+    float: left;
+    background-color: #000;
+    width: 28%;
+    border-bottom: 3px solid red;
+    padding: 15px 25px;
+    margin: 20px 25px;
+    color: white;
+}
+.sericon p{
+    font-size: 18px;
+}
+.clr{
+    clear: both;
+}
+.bg-image{
+    background-image: url(images/bg-image.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+}
+.img-fluid{
+    border-radius:50%;
+    width: 300px;
+    height: 300px;
+}
+.textarea{
+    width: 100%;
+    padding: 10px;
+    margin-left: 15px;
+}
+.contact{
+    position:relative;
+}
+
+
+
+#banner .navbar .right-side ul .active a{
+    color: red;
+}
+#banner .navbar .right-side ul a:hover{
+    color: #6d6d6d;
+}
+ .ender{
+    font-family:'Courier New', Courier, monospace;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.ender .container a{
+    color: red;
+    text-decoration: none;
+    
+}
